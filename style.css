@@ -1,0 +1,208 @@
+
+::-webkit-scrollbar {
+    width: 10px;
+
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #FF8584;
+    border-radius: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: white;
+  }
+
+.button-navbar{
+    background-color: #FF8584;
+    color: white;
+    border: 2px solid white;
+    padding: 0px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 10px;  
+}
+
+.jumbotron {
+    padding: 30rem 1rem;
+    background-image: url(assets/Home\ wp.jpg);
+    font-family: 'News Cycle', sans-serif;;
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-text1{
+    position: absolute;
+    width: 509px;
+    height: 86px;
+    left: 831px;
+    top: 387px;
+    
+    font-family: News Cycle;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 79px;
+    
+    color: #FFFFFF;
+}
+
+.home-text2{
+    position: absolute;
+    width: 444px;
+    height: 63px;
+    left: 831px;
+    top: 473px;
+    color: black;
+    
+    font-family: News Cycle;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 59px;  
+}
+
+.image-home{
+    position: absolute;
+    width: 253px;
+    height: 257px;
+    left: 500px;
+    top: 383px;
+}
+
+.contact-home{
+    position: absolute;
+    left: 831px;
+    top: 558px;
+}
+
+.button-about{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 12px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.about {
+    margin-top: 100px;
+}
+
+.image-about:before{
+    position: absolute;
+    content: '';
+    border: 2px solid black;
+    left: 325px;
+    top: 1150px;
+    width: 310px; 
+    height: 450px;
+    z-index: -1;
+}
+.projects{
+    background-color: #FF8584;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    height: 920px;
+}
+
+.overlay{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background: black;
+}
+
+.carousel-item:hover .carousel-caption{
+    color: white;
+    opacity: 1;
+}
+
+.carousel-item:hover .overlay{
+    opacity: 0.5;
+}
+.contact {
+    margin-top: 100px;
+    background-color: white;
+    height: 1070px;
+}
+
+.button-contact {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: News Cycle;
+}
+
+.icon{
+    position: absolute;
+    background-color: black;
+    padding: 20px 20px;
+    border-radius: 10px;
+    width: 85px;
+    height: 80px;
+    display: flex;
+    margin-left: 50px;
+}
+
+.address{
+    margin-top: 65px;
+   
+}
+
+.email{
+    margin-top: 65px;
+}
+
+.phone{
+    margin-top: 65px;
+}
+
+.isi{
+margin-left: 200px;
+}
+
+.footbar{
+    margin-top: 100px;
+    height: 310px;
+    background-color: black;
+}
+
+.btn{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    padding: 10px 15px;
+}
+
+.btn:hover{
+    background: rgba(253, 113, 112, 0.41);
+    border-radius: 10px;
+}
+
+.footer-cv{
+    margin-top: 50px;
+    margin-left:  300px;
+}
