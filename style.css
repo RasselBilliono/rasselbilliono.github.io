@@ -28,6 +28,7 @@
 .jumbotron {
     padding: 30rem 1rem;
     background-image: url(Assets/Homewp.jpg);
+    background-color: #FF8584;
     font-family: 'News Cycle', sans-serif;;
     color: white;
     background-position: center;
